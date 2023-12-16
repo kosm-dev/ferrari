@@ -1,9 +1,64 @@
 @font-face {
-  font-family: 'Roboto';
-  font-weight: 400;
+  font-family: 'Archivo';
+  font-weight: 300;
   font-style: normal;
-  src: local('Roboto'),
-    url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
+  src: local('Archivo'),
+    url('../fonts/Archivo-Light.woff2') format('woff2'),
+    url('../fonts/Archivo-Light.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Archivo';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Archivo'),
+    url('../fonts/Archivo-SemiBold.woff2') format('woff2'),
+    url('../fonts/Archivo-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Archivo';
+  font-weight: 800;
+  font-style: normal;
+  src: local('Archivo'),
+    url('../fonts/Archivo-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Archivo-ExtraBold.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Montserrat'),
+    url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Montserrat'),
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  src: local('Montserrat'),
+    url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff');
   font-display: swap;
 }
