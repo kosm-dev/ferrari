@@ -107,6 +107,16 @@ body {
   transform: scale(0);
 }
 
+.title {
+  @extend %mont-700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
+  &__decor {
+    margin-top: 30px;
+  }
+}
+
 .btn {
   display: inline-block;
   min-height: 46px;
@@ -129,9 +139,9 @@ body {
 .btn--special {
   background-color: transparent;
   border: 2px solid #fff;
-  transition: all .2s;
+  transition: all 0.2s;
   &:hover {
-    color: #1D1D1D;
+    color: #1d1d1d;
     background-color: #fff;
   }
 }

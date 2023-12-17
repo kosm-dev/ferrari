@@ -1,0 +1,28 @@
+.services {
+  &__inner {
+  }
+  &__title {
+    margin-bottom: 25px;
+  }
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.services-item {
+  width: 100%;
+  max-width: 260px;
+  &__icon {
+    width: 41px;
+    height: 41px;
+  }
+  &__icon img {
+    object-fit: contain;
+  }
+  &__title {
+  }
+  &__content {
+  }
+}
