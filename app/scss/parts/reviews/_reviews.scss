@@ -1,0 +1,54 @@
+.reviews {
+  &__container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  &__inner {
+    display: flex;
+  }
+  &__content {
+    width: 100%;
+    max-width: 570px;
+  }
+  &__title {
+  }
+  &__image {
+    width: 100%;
+    max-width: 570px;
+    height: 810px;
+  }
+
+  &__image img {
+    border-radius: 5px;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.reviews-slider {
+  &__arrow {
+  }
+  &__prev {
+  }
+  &__next {
+  }
+}
+
+.reviews-item {
+  &__text {
+  }
+  &__box {
+  }
+  &__avatar {
+  }
+  &__info {
+  }
+  &__name {
+  }
+  &__location {
+  }
+}
+.swiper-pagination {
+}
