@@ -1,0 +1,16 @@
+.partners {
+  &__items {
+    display: flex;
+    align-items: center;
+    gap: 0 46px;
+    padding: 10px 13px;
+  }
+}
+
+.partners-item {
+  width: 100%;
+  max-width: 178px;
+  & img {
+    object-fit: cover;
+  }
+}
