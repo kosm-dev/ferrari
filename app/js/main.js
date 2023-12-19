@@ -23,6 +23,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+  if (document.querySelector('.reviews-slider')) {
+    const reviewsSlider = new Swiper('.reviews-slider', {
+      loop: true,
+      navigation: {
+        nextEl: '.reviews-slider__next',
+        prevEl: '.reviews-slider__prev',
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        // renderBullet: function () {
+        //   return '<span class="reviews-slider__dot"></span>';
+        // },
+        
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
+
+    });
+
+  }
+
+
+
 
 
 
