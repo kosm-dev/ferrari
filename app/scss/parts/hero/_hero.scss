@@ -57,5 +57,31 @@
     line-height: 24px;
     letter-spacing: 1px;
   }
-  
+}
+
+@media (max-width: 1200px) {
+  .hero-item__title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-item {
+    min-height: calc(100vh - 100px);
+  }
+  .hero-item__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-item__content {
+    padding: 0px 25px;
+  }
+  .hero-slider__arrow-prev {
+    left: 5px;
+}
+.hero-slider__arrow-next {
+    right: 5px;
+}
 }
