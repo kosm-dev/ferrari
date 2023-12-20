@@ -147,6 +147,9 @@
 }
 
 @media (max-width: 991px) {
+  .reviews__inner {
+    height: auto;
+  }
   .reviews__container {
     padding: 0;
   }
@@ -182,9 +185,7 @@
   .reviews {
     padding-top: 0;
 }
-  .reviews__inner {
-    height: auto;
-  }
+  
   .reviews__image {
     height: 100vh;
   }

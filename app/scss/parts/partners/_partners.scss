@@ -14,3 +14,20 @@
     object-fit: cover;
   }
 }
+
+@media (max-width: 1200px) {
+  .partners__items {
+    justify-content: center;
+    gap: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners__items {
+    gap: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  
+}
