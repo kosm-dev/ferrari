@@ -145,3 +145,27 @@ body {
     background-color: #fff;
   }
 }
+
+
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & svg path {
+      transition: all 0.2s;
+    }
+    &:hover svg path {
+      fill: #f77f00;
+    }
+  }
+}

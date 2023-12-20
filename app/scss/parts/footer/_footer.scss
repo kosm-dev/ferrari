@@ -1,0 +1,89 @@
+.footer {
+  position: relative;
+  background-image: url("../images/footer/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+    opacity: 0.9;
+  }
+  &__inner {
+    position: relative;
+    z-index: 5;
+  }
+  &__info {
+    width: 100%;
+    max-width: 435px;
+    margin-right: 45px;
+  }
+  &__logo {
+    margin-bottom: 25px;
+  }
+  &__info-text {
+    margin-bottom: 45px;
+    @extend %arc-300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+ 
+  &__menu {
+    width: 100%;
+    max-width: 270px;
+  }
+  &__title {
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  &__menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px 0;
+  }
+  
+  &__menu-link {
+    @extend %mont-700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: all 0.2s;
+    &:hover {
+      color: #f77f00;
+    }
+  }
+}
+
+.footer-top {
+  padding-top: 115px;
+  padding-bottom: 140px;
+  display: flex;
+  &__items {
+    display: flex;
+    gap: 0 68px;
+    width: 100%;
+  }
+}
+
+.footer-copy {
+  position: relative;
+  z-index: 5;
+  padding: 10px;
+  background-color: #1d1d1d;
+
+  @extend %arc-300;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px; 
+  letter-spacing: 1px;
+  text-align: center;
+}
