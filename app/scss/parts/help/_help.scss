@@ -45,3 +45,9 @@
     letter-spacing: 1px;
   }
 }
+
+@media (max-width: 576px) {
+  .help {
+    padding: 60px 0;
+  }
+}
