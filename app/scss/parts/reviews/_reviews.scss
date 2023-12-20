@@ -145,3 +145,47 @@
     color: #f77f00;
   }
 }
+
+@media (max-width: 991px) {
+  .reviews__container {
+    padding: 0;
+  }
+  .reviews__inner {
+    flex-direction: column;
+  }
+  .reviews__content {
+    max-width: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+
+  .reviews__image {
+    max-width: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .reviews__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .reviews {
+    padding-top: 0;
+}
+  .reviews__inner {
+    height: auto;
+  }
+  .reviews__image {
+    height: 100vh;
+  }
+}
