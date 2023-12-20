@@ -34,7 +34,7 @@
     letter-spacing: 1px;
     color: #fff;
   }
- 
+
   &__menu {
     width: 100%;
     max-width: 270px;
@@ -49,7 +49,7 @@
     flex-direction: column;
     gap: 22px 0;
   }
-  
+
   &__menu-link {
     @extend %mont-700;
     font-size: 14px;
@@ -83,7 +83,40 @@
   @extend %arc-300;
   color: #fff;
   font-size: 14px;
-  line-height: 30px; 
+  line-height: 30px;
   letter-spacing: 1px;
   text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer__info {
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+}
+
+@media (max-width: 576px) {
+  .footer-top {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+  .footer-top__items {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__info {
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__info-text {
+    text-align: center;
+  }
 }
