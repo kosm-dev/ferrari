@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // renderBullet: function () {
         //   return '<span class="reviews-slider__dot"></span>';
         // },
-        
+
       },
       keyboard: {
         enabled: true,
@@ -49,6 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+  function burgerMenu() {
+    const burger = document.querySelector('.menu__btn '),
+      wrapperBurger = document.querySelector('.header__inner');
+
+    burger.addEventListener('click', () => {
+      wrapperBurger.classList.toggle('header__inner--active')
+    });
+
+  }
+
+  if (document.querySelector('.menu__btn ')) {
+    burgerMenu();
+  }
 
 
 
