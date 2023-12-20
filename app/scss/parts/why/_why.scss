@@ -115,3 +115,61 @@
     color: #1d1d1d;
   }
 }
+
+@media (max-width: 991px) {
+  .why__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why__image {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .why__content {
+    margin-top: 74px;
+    margin-left: 0;
+    max-width: none;
+  }
+  .why__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .why__items {
+    justify-content: center;
+  }
+  .why__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .why-item {
+    max-width: 150px;
+    padding: 20px 15px 20px;
+  }
+  .why-item__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .why-item__icon {
+    margin-bottom: 15px;
+  }
+
+  .why-expirience {
+    bottom: -10px;
+    right: auto;
+    left: -10px;
+    max-width: 208px;
+  }
+}
+
+@media (max-width: 375px) {
+  .why-item {
+    max-width: 130px;
+    padding: 15px 15px 15px;
+  }
+}
