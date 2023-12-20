@@ -44,3 +44,46 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .contacts__inner {
+    flex-direction: column;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .contacts__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-item__content {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contacts__content {
+    padding: 30px;
+  }
+
+  .contacts-item__content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contacts__content {
+    padding: 15px;
+  }
+
+  .contacts-item__content {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
