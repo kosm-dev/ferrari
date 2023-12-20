@@ -67,4 +67,24 @@
   }
 }
 
+@media (max-width: 991px) {
+  .about {
+    background-size: cover;
+  }
+  .about__inner {
+    flex-direction: column;
+  }
+  .about__images {
+    margin-bottom: 30px;
+  }
 
+  .about__content {
+    max-width: none;
+    margin-left: 0;
+  }
+  .about__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
